@@ -39,8 +39,11 @@
         Galleria.run('.galleria', {
         flickr: 'set:72157690158259976',
             flickrOptions: {
-            sort: 'date-posted-asc'
+                sort: 'date-posted-asc'
             }
+        });
+        Galleria.configure({
+            imageCrop: false
         });
         }());
         </script>

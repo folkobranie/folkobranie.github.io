@@ -428,6 +428,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .gtco-cover {
     height: 600px;
+    background-position: -300px 0px !important;
   }
 }
 .gtco-cover .display-t,
@@ -495,7 +496,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-practice-areas,
 #gtco-our-team,
 #gtco-contact {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 
@@ -1275,7 +1276,7 @@ form label {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 1em !important;
 }
 
 .row-pb-sm {
